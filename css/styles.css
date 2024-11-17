@@ -470,6 +470,7 @@ img {
 .footer-form {
   display: flex;
   align-items: center;
+  gap: 24px;
 }
 
 .footer-input {
@@ -480,8 +481,10 @@ img {
   padding-left: 16px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
   color: #fff;
-  margin-right: 24px;
 }
 
 .footer-input::placeholder {
@@ -500,16 +503,18 @@ img {
   color: #fff;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   display: flex;
   align-items: center;
-  gap: 16px;
+  justify-content: center;
   border: none;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 .footer-btn-icon {
   fill: #ffffff;
+  margin-left: 16px;
 }
 
 .backdrop {
@@ -672,7 +677,7 @@ img {
   align-items: center;
 }
 
-.modal-check-text span {
+.modal-check-span {
   width: 16px;
   height: 16px;
   display: inline-flex;
