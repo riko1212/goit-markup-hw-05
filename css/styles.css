@@ -463,6 +463,57 @@ img {
   background-color: #31d0aa;
 }
 
+.footer-form-wrap {
+  margin-left: 80px;
+}
+
+.footer-form {
+}
+
+.footer-form-container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.footer-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  color: #fff;
+}
+
+.footer-input::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.footer-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border: none;
+  background-color: #4d5ae5;
+}
+.footer-btn-icon {
+  fill: #ffffff;
+}
+
 .backdrop {
   width: 100%;
   height: 100%;
